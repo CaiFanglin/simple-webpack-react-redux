@@ -1,0 +1,51 @@
+{
+  "name": "simple-webpack-react-redux",
+  "version": "1.0.0",
+  "description": "maybe we can use the tool of redux to control the data",
+  "main": "./build/index.js",
+  "scripts": {
+    "build": "webpack --progress --colors",
+    "start": "webpack-dev-server --open --host 0.0.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CaiFanglin/simple-webpack-react-redux.git"
+  },
+  "keywords": [
+    "webpack",
+    "react",
+    "redux"
+  ],
+  "author": "caifanglin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CaiFanglin/simple-webpack-react-redux/issues"
+  },
+  "homepage": "https://github.com/CaiFanglin/simple-webpack-react-redux#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "html-webpack-plugin": "^2.30.1",
+    "path": "^0.12.7",
+    "prop-types": "^15.5.10",
+    "react-hot-loader": "^1.3.1",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.5.4",
+    "webpack-dev-server": "^2.7.1",
+    "whatwg-fetch": "^2.0.3"
+  },
+  "dependencies": {
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
+  }
+}
